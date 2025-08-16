@@ -3,6 +3,7 @@ package com.loginSignupAuth.loginSignupAuth.Entity;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -10,6 +11,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "userRegistry")
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class User {
